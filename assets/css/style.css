@@ -1,0 +1,237 @@
+
+
+.selfportrait{
+    border:3px solid lightseagreen;
+}
+
+.divider{
+    background-color:lightslategrey;
+    width:100%;
+    height:.2%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.name-tag{
+    background-color:lightseagreen;
+    padding:4px;
+    margin:auto;
+    text-align:center;
+    height:10%;
+    color:white;
+}
+
+.nav-item{
+    color:black;
+    position:relative;
+    top:10px;
+}
+
+.nav-item:hover{
+    background-color:lightseagreen;
+    text-decoration:none;
+}
+
+.portfolioTitle{
+    text-align:center;
+    
+    padding:4px;
+    position:relative;
+    top:30%;
+    
+    
+    margin:auto;
+
+   
+    background-color:lightseagreen;
+    width:100px;
+    z-index:0;
+    
+}
+.row{
+    position:relative;
+    
+    margin:1%;
+}
+
+
+
+.portfolio-image{
+    z-index:-1;
+    position:relative;
+    border:3px
+}
+
+
+
+.container{
+    margin-top:10px;
+    padding:10px;
+    border:3px solid lightslategrey;
+    text-align:center;
+    
+}
+
+.form-container{
+    margin-top:10px;
+    padding:10px;
+    border:3px solid lightslategrey;
+
+
+}
+
+
+footer{
+    background-color:lightslategrey;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    color:white;
+}
+
+.nav{
+    height:10%;
+}
+
+.nav-link{
+color:black;
+}
+
+.nav-link:hover{
+    color:white;
+}
+
+.redSquare{
+
+    background-color:lightpink;
+    height:50px;
+    width:50px;
+    float:left;
+    margin-left:10%;
+    clear:both;
+    /* display:inline-block; */
+    
+     
+
+}
+.redSquareAnimation{
+    animation-name:rotateIcon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+}
+
+@keyframes rotateIcon{
+0%{}
+50%{transform:rotate(360deg) scale(4);
+background-color:lightsteelblue;
+}
+100%{transform:rotate(360deg) scale(4) translateY(30%)}}
+
+.profileContainer{
+    margin-top:10%;
+}
+
+.blueSquare{
+
+    background-color:lightskyblue;
+    height:50px;
+    width:50px;
+    display:inline-block;}
+
+
+img{
+    display:block;
+    max-width: 90%;
+    max-height:90%;
+    height:auto;
+    width:auto;
+    margin:auto;
+    position:relative;
+    top:2px;
+    
+}
+.biographyBar{
+    text-align:center;
+    margin:5px auto;
+  
+    animation-name:growingDiv;
+    animation-duration:.5s;
+    animation-fill-mode: forwards;
+    border:1px solid darkgrey;
+    margin-left:20%;
+    border-radius:10px;
+    transform-origin:left;
+    float:left;
+    clear:both;
+   
+
+}
+
+.test{
+    height:50px;
+    width:30px;
+    
+    background-color:green;
+}
+.test:hover{
+    animation-name: growingDiv;
+    animation-duration:2s;
+    animation-fill-mode:forward;
+    
+
+}
+
+@keyframes growingDiv{
+0%{width:20px}
+
+100%{width:500px}
+}
+.linkedInSquare{
+
+    background-color:lightgreen;
+    height:30px;
+    width:30px;
+    float:left;
+    margin:10%;
+    border-radius:5px;
+}
+.resumeSquare{
+
+    background-color:lightsalmon;
+    height:30px;
+    width:30px;
+    float:left;
+    margin:10%;
+    border-radius:5px;
+}
+.gitHubSquare{
+
+    background-color:lightskyblue;
+    height:30px;
+    width:30px;
+    float:left;
+    margin:10%;
+    border-radius:5px;
+}
+  
+.squareContainer{
+    clear:both;
+    float:left;
+}
+
+
+
+
+
+
+/* @media screen and (max-width:300px) {
+ .redSquare{
+     clear:both;
+     margin-left:40%;
+     margin-right:30%;
+ }
+ .profileContainer{
+     text-align: center;
+ }
+} */
