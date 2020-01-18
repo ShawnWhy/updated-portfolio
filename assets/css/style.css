@@ -109,6 +109,7 @@ color:black;
     float:left;
     margin-left:10%;
     clear:both;
+    margin-right:10%;
     /* display:inline-block; */
     
      
@@ -137,10 +138,10 @@ color:black;
 50%{transform:rotate(360deg) scale(4);
 background-color:lightsteelblue;
 }
-100%{transform:rotate(360deg) scale(4) translateY(30%)}}
+100%{transform:rotate(360deg) scale(4) translateY(60%)}}
 
 .profileContainer{
-    margin-top:10%;
+    margin:auto;
 }
 .portfolioSquareAnimation{
     animation-name:rotateporfolioIcon;
