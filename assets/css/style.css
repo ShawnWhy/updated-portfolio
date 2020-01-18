@@ -142,6 +142,24 @@ background-color:lightsteelblue;
 .profileContainer{
     margin-top:10%;
 }
+.portfolioSquareAnimation{
+    animation-name:rotateporfolioIcon;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+}
+
+
+@keyframes rotateporfolioIcon{
+    0%{}
+    50%{transform:rotate(360deg);
+    background-color:lightsteelblue;
+    }
+    100%{transform:rotate(360deg);}}
+    
+    .profileContainer{
+        margin-top:10%;
+    }
 
 .blueSquare{
 
@@ -181,6 +199,21 @@ img{
    
 
 }
+
+.portfolioInfoBar{
+    text-align:center;
+    margin:5px auto;
+  
+    animation-name:growingDiv;
+    animation-duration:.5s;
+    animation-fill-mode: forwards;
+    border:1px solid darkgrey;
+    margin-left:5%;
+    border-radius:10px;
+    transform-origin:left;
+    float:left;
+    clear:both;}
+   
 
 .test{
     height:50px;
