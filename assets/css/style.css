@@ -114,6 +114,17 @@ color:black;
      
 
 }
+.goldSquare{
+    background-color:gold;
+    height:50px;
+    width:50px;
+    float:left;
+    margin-left:10%;
+    clear:both;
+    /* display:inline-block; */
+
+
+}
 .redSquareAnimation{
     animation-name:rotateIcon;
     animation-duration: 1s;
@@ -134,10 +145,13 @@ background-color:lightsteelblue;
 
 .blueSquare{
 
-    background-color:lightskyblue;
+    background-color:skyblue;
     height:50px;
     width:50px;
-    display:inline-block;}
+    float:left;
+    margin-left:10%;
+    clear:both;
+}
 
 
 img{

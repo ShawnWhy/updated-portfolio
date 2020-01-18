@@ -17,9 +17,9 @@ function iconHover(event){
    biographyContainer.addClass("biographyText biographyBar");
     $(".profileContainer").append(biographyContainer);
     setTimeout(function(){ var biographySubContainer = $("<div>");
-    biographySubContainer.html("<p>Shawn Yu is an Aspiring Frontend/Backend DEveloper and visual developer.</p>");
+    biographySubContainer.html("<p>Shawn Yu is an Aspiring Front-end Back-end Developer and visual developer.</p>");
     // biographySubContainer.addClass("col-md-12");
-    $(".biographyText").append(biographySubContainer);},800);
+    $(".biographyText").append(biographySubContainer);},600);
     setTimeout(function(){
 
     var biographyContainer2 = $("<div>");
@@ -31,7 +31,7 @@ function iconHover(event){
     
     biographySubContainer2.html("<p>He is a former teacher and commercial artist.</p>");
     // biographySubContainer2.addClass("col-md-12");
-    $(".biographyText2").append(biographySubContainer2);},2400);
+    $(".biographyText2").append(biographySubContainer2);},1800);
 
 createSquare();
 
@@ -57,7 +57,7 @@ setTimeout(function(){
     linkedInSquare.addClass("linkedInSquare");
     linkedInSquare.attr("value","on");
     squareContainer.append(linkedInSquare);},300)
-},3200)
+},2400)
 }
 function resumeHover(event){
     event.preventDefault();
